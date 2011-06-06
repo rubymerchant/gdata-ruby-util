@@ -37,7 +37,7 @@ module GData
           @@client.clientlogin(@@config['username'], @@config['password'])
         end
       end
-      establish_connection()
+      #establish_connection()
       
       def self.config
         @@config
